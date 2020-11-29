@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Analytics from './components/index'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          
+          <h3 style={{ textAlign: "center" }}>MIPS Instruction Converter</h3>
+          
+    
       </header>
+      <Analytics />
+      <footer className="footer">
+        <div> 
+       
+        <span style={{paddingLeft:"5px"}}> Disclaimer: It is a group project done by 4 student of CSU Ohio. They are Abhinav, Abhijeet, Ankur and Lokaranjan. </span>  
+        <span style={{paddingLeft:"5px"}}> ©️ copyright 2020 </span>  
+        
+                </div>
+      </footer>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Analytics = observer(class Analytics extends React.Component {
         this.conv_ins_bin = this.conv_ins_bin.bind(this)
         this.conv_bin_ins = this.conv_bin_ins.bind(this)
         this.state = {
-            url: 'https://converterapi.herokuapp.com/',
+            url: 'http://127.0.0.1:5000/',
             instruction: '',
             binarydata: '',
             type: "",
